@@ -1,0 +1,20 @@
+package first;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello earth");
+		
+		System.out.println(1000+12);
+
+	}
+
+}
+//class Third
+//{
+//	public static void main(String args[])
+//	{
+//		System.out.println("hii");
+//	}
+//}

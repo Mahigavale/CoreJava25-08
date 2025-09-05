@@ -1,0 +1,61 @@
+package first;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Set;
+import java.util.function.BiConsumer;
+import java.util.function.BinaryOperator;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import java.util.stream.Collector;
+
+public class Cl1 {
+
+	public static void main(String[] args) {
+		
+		
+		List<String> list=Arrays.asList("ABC","CDE","EFG");
+
+	}
+}
+
+class namescollector implements Collector<String, StringBuilder, String>{
+
+	@Override
+	public Supplier<StringBuilder> supplier() {
+		
+		return StringBuilder::new;
+	}
+
+	@Override
+	public BiConsumer<StringBuilder, String> accumulator() {
+		
+		BiConsumer<StringBuilder,String> bi=(sb,s)->{sb.append(s);};
+		
+		return bi;
+	}
+
+	@Override
+	public BinaryOperator<StringBuilder> combiner() {
+		
+		BinaryOperator<StringBuilder> bn=(sb1,sb2)->(sb1.append(sb2));
+		
+		
+		return bn;
+	}
+
+	@Override
+	public Function<StringBuilder, String> finisher() {
+		
+		Function<StringBuilder, String> fn=(sb)->(sb.toString());
+		
+		return fn;
+	}
+
+	@Override
+	public Set<Characteristics> characteristics() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

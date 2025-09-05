@@ -1,0 +1,26 @@
+package datatypes;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		
+		int num=100;
+		
+		String number="100";
+		
+		
+		System.out.println(num+100);
+		
+		System.out.println(number+100);
+		
+		System.out.println(number+200+num+50+500+500);
+                        //"100"+200+100+50+500+500
+		
+		
+		String[] names=new String[8];
+		names[0]="ABcde";
+		names[1]="welcome";
+	
+	}
+
+}

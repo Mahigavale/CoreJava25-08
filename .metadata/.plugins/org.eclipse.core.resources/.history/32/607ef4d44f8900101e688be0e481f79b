@@ -1,0 +1,16 @@
+package operators;
+
+public class Decreament {
+
+	public static void main(String[] args) {
+		
+		int age=34;
+		
+		
+		
+		--age;
+		age++;
+
+	}
+
+}

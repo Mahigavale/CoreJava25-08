@@ -1,0 +1,21 @@
+package operators;
+
+public class Increment {
+
+	public static void main(String[] args) {
+		
+		
+		
+	 double sum=108.78;
+	 
+	 
+	 
+	   ++sum;    
+	   sum++;
+	   ++sum;
+	   
+	   System.out.println(sum+(++sum)+(sum++)+(++sum)+(++sum));
+	   System.out.println(sum);
+	}
+
+}

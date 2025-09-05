@@ -1,0 +1,16 @@
+package first;
+
+import java.util.stream.Collector;
+
+public class namestolist {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class namestolist1 implements Collector<String, List<String>, List<String>>
+{
+	
+}

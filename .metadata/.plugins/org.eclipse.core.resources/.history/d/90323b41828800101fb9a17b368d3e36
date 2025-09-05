@@ -1,0 +1,14 @@
+package datatypes;
+
+public class Nonprimitive {
+
+	public static void main(String[] args) {
+		
+		//Non-Primitive:
+		// size not fixed.
+		//stored inside Heap.
+		
+		//String
+	}
+
+}

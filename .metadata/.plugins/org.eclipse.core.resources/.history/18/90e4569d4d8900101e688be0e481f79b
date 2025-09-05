@@ -1,0 +1,30 @@
+package operators;
+
+public class Arithmetic {
+
+	public static void main(String[] args) {
+	//arithmetic 
+		//Plus
+		 // increment=> Pre and Post
+		
+		int num=10;
+	
+	//	System.out.println(num1);
+		
+	//	System.out.println((num++)+10);
+	//	System.out.println(num);
+		
+		//System.out.println(num);
+		
+		
+		int  age=10;
+		    System.out.println(++age+(++age)+(age++)+(age++)+(age++));
+                               //11+11+12=>age=>13
+		    
+		    
+		    System.out.println(age);
+	
+	} 
+	
+
+}

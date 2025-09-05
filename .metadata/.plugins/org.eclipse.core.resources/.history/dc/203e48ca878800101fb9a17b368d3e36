@@ -1,0 +1,17 @@
+package datatypes;
+
+public class Stringdemo {
+
+	public static void main(String[] args) {
+		//Unique System Skills
+		 int num=12345;
+		
+		String name="12345"; //""=> String=> Collection of the meaningful letters.
+		
+   
+		System.out.println(num+1);
+		System.out.println("*****************");
+		System.out.println(name+1);
+	}
+
+}

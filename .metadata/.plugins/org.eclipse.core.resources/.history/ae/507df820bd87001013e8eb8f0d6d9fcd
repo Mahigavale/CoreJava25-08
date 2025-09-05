@@ -1,0 +1,14 @@
+package datatypes;
+
+public class Casting {
+
+	public static void main(String[] args) {
+		
+		
+		 double d=12.45; //football
+		 System.out.println(d);
+		  int i=(int)d;    //cricket
+
+	}
+
+}

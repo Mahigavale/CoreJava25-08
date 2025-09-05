@@ -1,0 +1,14 @@
+package operators;
+
+public class Arithmetic {
+
+	public static void main(String[] args) {
+	//arithmetic 
+		//Plus
+		 // increment=> Pre and Post
+		
+		System.out.println(10+12+12);
+
+	}
+
+}

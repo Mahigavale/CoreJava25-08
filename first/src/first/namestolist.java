@@ -1,0 +1,69 @@
+package first;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
+import java.util.function.BiConsumer;
+import java.util.function.BinaryOperator;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import java.util.stream.Collector;
+
+public class namestolist {
+
+	public static void main(String[] args) {
+		
+		
+		List<String> list=Arrays.asList("Abc","cde","efg","dfjf","efkn").stream().collect(new namestolist23());
+		
+		
+		System.out.println(list);
+	}
+
+}
+
+class namestolist23 implements Collector<String, List<String>, List<String>>
+{
+
+	@Override
+	public Supplier<List<String>> supplier() {
+		
+		return ArrayList::new;
+	}
+
+	@Override
+	public BiConsumer<List<String>, String> accumulator() {
+       
+		     BiConsumer<List<String>, String> bi=(list,string)->{
+		    	 list.add(string.toUpperCase());
+		     };
+		     return bi;
+		     
+	}
+
+	@Override
+	public BinaryOperator<List<String>> combiner() {
+		
+		BinaryOperator<List<String>> bo=(list1,list2)->{
+		 list1.addAll(list2);
+		 return list1;
+		};
+		return bo;
+	}
+
+	@Override
+	public Function<List<String>, List<String>> finisher() {
+		
+		Function<List<String>, List<String>> fun=(list)->(list);
+		
+		return fun;
+	}
+
+	@Override
+	public Set<Characteristics> characteristics() {
+		return Collections.EMPTY_SET;
+	}
+	
+}

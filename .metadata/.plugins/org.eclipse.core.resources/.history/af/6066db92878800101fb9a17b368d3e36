@@ -1,0 +1,14 @@
+package datatypes;
+
+public class Stringdemo {
+
+	public static void main(String[] args) {
+		//Unique System Skills
+		
+		
+		String name="Omkarleglekfnlekrfeferkrelkfelkfkfrelkflkefrfkeflkeflkflknefflenklf"; //""=> String=> Collection of the meaningful letters.
+		
+
+	}
+
+}
