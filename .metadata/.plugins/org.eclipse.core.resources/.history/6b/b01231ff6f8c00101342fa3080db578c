@@ -1,0 +1,14 @@
+package operators;
+
+public class Shorthand {
+
+	public static void main(String[] args) {
+		
+		
+	
+		int age=23;
+		
+		 age=age+5;
+	}
+
+}

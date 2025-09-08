@@ -1,0 +1,14 @@
+package operators;
+
+public class Shorthand {
+
+	public static void main(String[] args) {
+		
+		
+		int num=10;
+		System.out.println(num);
+    num+=3; //num=num+3;
+		System.out.println(num);
+	}
+
+}
