@@ -1,0 +1,10 @@
+package operators;
+
+public class Shorthand2 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

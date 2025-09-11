@@ -1,0 +1,26 @@
+package conditional;
+
+public class ifblock {
+
+	public static void main(String[] args) {
+		
+		int age1=17; 
+		int age2=18; 
+		int age3=19;
+		if() 
+		{
+			System.out.println("go to trekking");
+		}
+		
+		else
+		{
+			 System.out.println("go to home");
+		}
+		
+		
+		System.out.println("Program done>>>>");
+		
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package conditional;
+
+public class Ifblock2 {
+
+	public static void main(String[] args) {
+		
+		
+		int bigbrother=23;
+		
+		int younger1=17;
+		
+		int younger2=18;
+		
+		if(bigbrother>18) // True
+		{
+			if(younger1 >=18 || younger2>=18)//false || true => True
+			{
+				System.out.println("You can enter the pool");
+			}
+			
+			else
+			{
+				System.out.println("You can watch from far...");
+			}
+		}
+		else
+		{
+			System.out.println("You cannot enter the fair...");
+		}
+		
+		
+		System.out.println("******THE END**********");
+
+	}
+
+}

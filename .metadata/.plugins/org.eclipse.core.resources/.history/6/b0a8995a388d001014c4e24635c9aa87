@@ -1,0 +1,23 @@
+package operators;
+
+public class Shorthand2 {
+
+	public static void main(String[] args) {
+		
+		int num=100; //= => assign
+		int num2=100;
+	//	System.out.println(num==num2); //== equality
+		
+		
+		 //% 
+		//10/3=>3
+		//10%3=>1
+		
+		System.out.println(13%3);
+		
+		System.out.println(36%8);
+		
+
+	}
+
+}

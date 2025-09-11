@@ -1,0 +1,13 @@
+package operators;
+
+public class Shorthand2 {
+
+	public static void main(String[] args) {
+		
+		int num=100; //= => assign
+		int num2=101;
+		System.out.println(num==num2);
+
+	}
+
+}

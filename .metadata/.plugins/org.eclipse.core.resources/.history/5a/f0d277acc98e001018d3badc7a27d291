@@ -1,0 +1,11 @@
+package conditional;
+
+public class ifblock {
+
+	public static void main(String[] args) {
+		
+		int num=100;
+		int num2=200;
+	}
+
+}

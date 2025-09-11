@@ -1,0 +1,27 @@
+package operators;
+
+public class Logicaland {
+
+	public static void main(String[] args) {
+		
+		//T && T=>T
+		// F
+		
+//		System.out.println(true&& false);
+//		System.out.println(false && true);
+//		System.out.println(false && false);
+//		System.out.println(true && true);
+
+		
+		
+		int ajim_age=45;
+		int anand_age=16;
+		
+//		System.out.println(ajim_age>50); //false
+//		System.out.println(anand_age<21); //true
+		System.out.println( ajim_age>50 && anand_age<21);
+		
+		System.out.println(145>200 && 300<208);
+	}
+
+}

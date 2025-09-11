@@ -1,0 +1,15 @@
+package operators;
+
+public class Program {
+
+	public static void main(String[] args) {
+		int sum= -109;
+		
+		
+		
+		System.out.println(sum--<= sum--);
+
+		                  //-108 <=-108=>-107
+	}
+
+}

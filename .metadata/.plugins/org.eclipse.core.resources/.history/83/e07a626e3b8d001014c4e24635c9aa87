@@ -1,0 +1,14 @@
+package operators;
+
+public class Logicaland {
+
+	public static void main(String[] args) {
+		
+		//T && T=>T
+		// F
+		
+		System.out.println(true&& false);
+
+	}
+
+}

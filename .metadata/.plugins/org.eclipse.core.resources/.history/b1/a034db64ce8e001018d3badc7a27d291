@@ -1,0 +1,14 @@
+package conditional;
+
+public class Ifblock2 {
+
+	public static void main(String[] args) {
+		
+		
+		int bigbrother=23;
+		
+		int younger1=17;
+
+	}
+
+}

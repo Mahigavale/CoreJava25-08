@@ -1,0 +1,16 @@
+package operators;
+
+public class Logical {
+
+	public static void main(String[] args) {
+		
+		int num=144;
+		
+		System.out.println(num !=100);
+		
+		
+		double salary=23234.56;
+
+	}
+
+}
