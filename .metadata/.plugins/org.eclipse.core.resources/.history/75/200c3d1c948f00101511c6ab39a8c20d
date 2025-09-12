@@ -1,0 +1,19 @@
+package conditional;
+
+public class Ladder {
+
+	public static void main(String[] args) {
+		
+		float marks=34.99999999f;
+		
+		if(marks >=35)
+		{
+			System.out.println("Congratulations !");
+		}
+		else
+		{
+			System.out.println("Better luck next time..");
+		}
+	}
+
+}
