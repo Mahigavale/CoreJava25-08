@@ -1,0 +1,15 @@
+package conditional;
+
+public class Ladder {
+
+	public static void main(String[] args) {
+		
+		double marks=300;
+		
+		if(marks >=35 && marks <=45)
+		{
+			System.out.println("Third divison.");
+		}
+	}
+
+}
