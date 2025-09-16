@@ -1,0 +1,19 @@
+package loops;
+
+public class Table {
+
+	public static void main(String[] args) {
+		
+		
+		
+		int num=33;
+		
+		
+		for(int multi=1;multi <=10;multi++)
+		{
+			 System.out.println(num*multi);
+		}
+
+	}
+
+}

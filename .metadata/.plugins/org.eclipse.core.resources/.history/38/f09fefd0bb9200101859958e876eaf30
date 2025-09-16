@@ -1,0 +1,32 @@
+package loops;
+
+public class Fourth {
+	public static void main(String[] args) {
+		
+		
+		
+		
+		  // 1=> 374 => even numbers =>(num %2==0)
+		// ICBO
+		
+		int sum=0;//0+1+2+3+4+5
+		
+		// 1=> 50 => Summation
+		// 1-5 =>0+2+4=>6
+		   for(int num=1;num<=15;num++)
+		   {
+			  // sum=sum+num;
+			  //1,2,3,4,5
+			   if(num%2==0)
+			   {
+				   sum=sum+num;
+			   }
+		   }
+		  
+		   
+		   System.out.println(sum);
+		
+
+	}
+
+}

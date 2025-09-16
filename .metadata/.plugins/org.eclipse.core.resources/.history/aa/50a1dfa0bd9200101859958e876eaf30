@@ -1,0 +1,13 @@
+package loops;
+
+public class Fifth {
+
+	public static void main(String[] args) {
+		
+		
+		//1=> 100000=> 
+		double sum=0;
+
+	}
+
+}

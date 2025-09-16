@@ -1,0 +1,69 @@
+package loops;
+
+public class First {
+
+	public static void main(String[] args) {
+		
+		
+	
+		// Loops=> doing one thing again and again. till the specific time/condition.
+		 //for.
+		//enhanced for.
+		
+		
+		
+		//for=> variable, condition , operation on variable.\
+		// variable initialization , condition checking , variable updation / operation
+		
+		
+		
+		
+		
+		
+//		if() //true or false
+//		{
+//			
+//		}
+//		
+//		else if() // true or false
+//		{
+//			
+//		}
+		
+		
+		
+// 1)Variable init.	
+// 2) Condition for variable.	 i=>19
+// 3) Operation on the variable.		
+		
+		//int k=10;
+		//System.out.println(10+1); //10+1 =>11  //binary
+		//System.out.println(k++); //10+1 => 10 //unary
+		
+		for(int i=1;i<=5;i++)   // ++,-- => Unary => increment and decrement
+		{
+			//initialisasion
+			// condition  => if true
+			// block
+			// operation.  ICBO
+			
+			//System.out.println("hiii");
+			System.out.println(i);
+		}
+		
+	
+		System.out.println("Thank GOD!");
+		
+		
+		
+	}
+
+	
+	/**
+	 * Unreachable
+	 */
+}
+
+
+
+

@@ -1,0 +1,21 @@
+package loops;
+
+public class Second {
+
+	public static void main(String[] args) {
+		
+		 //10.0=> 15.0 => d++
+		// 10.0 => 5.0=>d--
+		//
+		for(double d=10.0;d>5.0;d++) //11.0,12.0,13.0
+		{
+		
+		System.out.println(d);
+					
+			
+		}
+		// write the condition with the correct logic.
+
+	}
+
+}

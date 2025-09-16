@@ -1,0 +1,13 @@
+package loops;
+
+public class Table {
+
+	public static void main(String[] args) {
+		
+		
+		
+		int num=33;
+
+	}
+
+}
