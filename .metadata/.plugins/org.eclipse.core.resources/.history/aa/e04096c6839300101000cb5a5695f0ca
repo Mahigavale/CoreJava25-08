@@ -1,0 +1,24 @@
+package loops;
+
+public class whileloop {
+
+	public static void main(String[] args) {
+	
+		
+		
+		int num=101; //Initialization
+		
+		while(num<100) //Condition
+		{
+			System.out.println(num); //block 
+			num++; // Operation
+		}
+		
+		
+		
+		
+		
+		
+			}
+
+}

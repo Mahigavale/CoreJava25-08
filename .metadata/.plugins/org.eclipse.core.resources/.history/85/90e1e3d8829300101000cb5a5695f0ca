@@ -1,0 +1,17 @@
+package loops;
+
+public class whileloop {
+
+	public static void main(String[] args) {
+	
+		
+		boolean flag=false;
+		
+		while(flag ==false)
+		{
+			System.out.println("hi");
+			flag=false;
+		}
+	}
+
+}
