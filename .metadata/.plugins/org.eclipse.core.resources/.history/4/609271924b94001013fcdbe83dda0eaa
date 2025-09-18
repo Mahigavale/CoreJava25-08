@@ -1,0 +1,23 @@
+package conditional;
+
+public class Switchcase {
+
+	public static void main(String[] args) {
+	
+		/**
+		 * Switch case :
+		 * 
+		 * minimal number of fixed choices.
+		 */
+   int num=10;
+		
+		switch(num)
+		{
+		case 10:
+		{
+			
+		}
+		}
+	}
+
+}

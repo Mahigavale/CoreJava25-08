@@ -1,0 +1,36 @@
+package conditional;
+
+public class Switchcase {
+
+	public static void main(String[] args) {
+	
+		/**
+		 * Switch case :
+		 * 
+		 * minimal number of fixed choices.
+		 */
+   int num=16; //15
+		
+		switch(num) //swith(10,5,15)
+		{
+		case 10:
+		{
+			System.out.println(10);
+		}
+		case 5:
+		{
+			System.out.println(5);
+		}
+		case 15:
+		{
+			System.out.println(15);
+			System.out.println(15 +"case");
+		}
+		default:
+		{
+			System.out.println("Wrong door");
+		}
+		}
+	}
+
+}

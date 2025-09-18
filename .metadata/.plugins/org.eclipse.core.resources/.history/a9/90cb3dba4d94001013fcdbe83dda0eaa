@@ -1,0 +1,34 @@
+package conditional;
+
+public class Days {
+
+	public static void main(String[] args) {
+		
+		String day="Friday"; //today's day
+		
+		switch(day) // variable name
+		{
+		
+		case "Saturday":
+		{
+			System.out.println("Hurray... Saturday...");
+			break;
+		}
+		case "Friday":     //variable value
+		{
+			System.out.println("Today is friday.....");
+			break;
+		}
+		case "Thursday":   //variable value
+		{
+			System.out.println("today is Thursday..");
+			break;
+		}
+		default :
+		{
+			System.out.println("I don't have that day");
+		}
+		}
+	}
+
+}

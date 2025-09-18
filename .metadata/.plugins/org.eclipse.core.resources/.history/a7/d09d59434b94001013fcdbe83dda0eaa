@@ -1,0 +1,13 @@
+package conditional;
+
+public class Switchcase {
+
+	public static void main(String[] args) {
+	
+		/**
+		 * Switch case :
+		 */
+
+	}
+
+}

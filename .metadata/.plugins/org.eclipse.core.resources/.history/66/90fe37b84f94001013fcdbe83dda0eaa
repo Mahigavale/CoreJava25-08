@@ -1,0 +1,15 @@
+package conditional;
+
+public class TransferStatements {
+
+	public static void main(String[] args) {
+		// Break;=>
+		//continue;=>
+		
+		for(int i=0;i<100;i++)
+		{
+			
+		}
+	}
+
+}

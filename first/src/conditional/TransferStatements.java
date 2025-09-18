@@ -1,0 +1,22 @@
+package conditional;
+
+public class TransferStatements {
+
+	public static void main(String[] args) {
+		// Break;=>
+		//continue;=>
+		
+		for(int i=0;i<20;i++)
+		{
+			//2%2==0
+			if(i%3==0)
+			{
+				//break;// => terminate the whole loop
+				continue;
+				//continue; //skip the current loop iteration /execution.
+			}
+			System.out.print(i+" ");
+		}
+	}
+
+}
