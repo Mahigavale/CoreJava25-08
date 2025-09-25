@@ -22,7 +22,8 @@ public class Two_d_1 {
 				}
 				counter++;
 				if(counter>1)
-				{boolean flag=true;
+				{
+					boolean flag=true;
 					for(int k=2;k<counter;k++)
 					{
 						if(counter%k==0)
