@@ -4,7 +4,7 @@ public class Third {
 
 	public static void main(String[] args) {
 		
-		 System.out.println(IBM.countdays(10,14));
+		 System.out.println(IBM.countdays(10,9));
 		 //3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
 		 //0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4
 		 
@@ -25,6 +25,7 @@ class IBM
 		/**
 		 * Guard Clause.
 		 * Check the negative condition first.
+		 * and that too at the start of the question.
 		 */
 		if(peter <=john)
 		{

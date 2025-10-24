@@ -4,12 +4,8 @@ public class Second {
 
 	public static void main(String[] args) {
 
-		Demo.change("WELCOME TO PUNE");
-		Demo.change("WELCOME TO MAHARASHTRA");
-		Demo.change("YIPPEEE, HURRAY");
-        Demo.change("AEEEEEEEEEEEOOOOOOOOOXXXXXXXXXXYYYYYYEEEEEEEEE");
-		Demo.change("NVLSVD;SLDDORWPOFWENKCW[EWEPRPWPPWCKK[TOGEWE KV;WDWFWLEVW;LWL'PWEFRW C L;WQE");
-
+		Demo.change("Pune IS grEaT");
+		//PUnE iS greAT
 	}
 
 }
@@ -29,7 +25,16 @@ class Demo {
 
 				str2 = sb3.append(str.charAt(i)).toString().toLowerCase();
 				sb.append(str2);
-			} else {
+			}
+			else if (str.charAt(i) == 'e' || str.charAt(i) == 'o' || str.charAt(i) == 'u' || str.charAt(i) == 'a'
+					|| str.charAt(i) == 'i') {
+				StringBuffer sb3 = new StringBuffer();
+
+				str2 = sb3.append(str.charAt(i)).toString().toUpperCase();
+				sb.append(str2);
+			} 
+			
+			else {
 				sb.append(str.charAt(i));
 			}
 		}
