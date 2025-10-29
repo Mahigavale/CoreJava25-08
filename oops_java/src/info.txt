@@ -1,0 +1,37 @@
+
+OOPS=>
+* what is oops and why is oops?
+* oops and other programming structures.
+
+* Encapsulation : why? how ? usecase?
+  *a) use of private keyword to make it secure.
+  *b)Enum.
+  
+*Inheritance : why ? how ?need ?
+  *a)Single level Inheritance.
+  *b)Multilevel ####
+  *c)Hierarchial ####
+  *d)Hybrid  ####
+  *e)Multiple ####
+  
+ *Abstraction: why ? how ? need?
+  a)Abstract/ Incomplete class.
+  b)Interface.(java 8 , Functional i/f, lambda expression )
+  
+ *Polymorphism:
+  A)Overloading.
+  1)Private.           (****)
+  2)Default/(package). (***)
+  3)Protected.         (**)
+  4)Public.            (*)
+  
+  B)Overriding.
+  ** Access modifiers.
+  a)static overriding..
+  b)dynamic overriding... (dynamic method dispatch)
+  
+  *overloading and overriding in the context of final,static, default(java 8), method hiding,
+  resolution of diamond problem with default methods in interfaces(java 8+).
+  
+  
+  * is Java purely OOPS oriented ? why ?
