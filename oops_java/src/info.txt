@@ -17,6 +17,7 @@ OOPS=>
  *Abstraction: why ? how ? need?
   a)Abstract/ Incomplete class.
   b)Interface.(java 8 , Functional i/f, lambda expression )
+  c)Backward Compatibilty (static and default methods in I/F).
   
  *Polymorphism:
   A)Overloading.
@@ -27,8 +28,8 @@ OOPS=>
   
   B)Overriding.
   ** Access modifiers.
-  a)static overriding..
-  b)dynamic overriding... (dynamic method dispatch)
+  a)static overriding../compiletime
+  b)dynamic overriding runtime/... (dynamic method dispatch)
   
   *overloading and overriding in the context of final,static, default(java 8), method hiding,
   resolution of diamond problem with default methods in interfaces(java 8+).

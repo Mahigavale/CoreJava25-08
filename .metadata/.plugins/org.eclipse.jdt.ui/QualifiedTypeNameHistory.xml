@@ -17,4 +17,7 @@
     <fullyQualifiedTypeName name="encapsulation.Second"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="polymorphism.Six"/>
+    <fullyQualifiedTypeName name="polymorphism.Aero"/>
+    <fullyQualifiedTypeName name="first.Elephant"/>
 </qualifiedTypeNameHistroy>
