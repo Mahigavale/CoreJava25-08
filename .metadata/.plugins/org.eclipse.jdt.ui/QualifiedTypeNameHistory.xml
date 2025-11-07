@@ -20,4 +20,6 @@
     <fullyQualifiedTypeName name="polymorphism.Six"/>
     <fullyQualifiedTypeName name="polymorphism.Aero"/>
     <fullyQualifiedTypeName name="first.Elephant"/>
+    <fullyQualifiedTypeName name="first.BankBalance"/>
+    <fullyQualifiedTypeName name="second.D3"/>
 </qualifiedTypeNameHistroy>
