@@ -22,4 +22,5 @@
     <fullyQualifiedTypeName name="first.Elephant"/>
     <fullyQualifiedTypeName name="first.BankBalance"/>
     <fullyQualifiedTypeName name="second.D3"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 </qualifiedTypeNameHistroy>
