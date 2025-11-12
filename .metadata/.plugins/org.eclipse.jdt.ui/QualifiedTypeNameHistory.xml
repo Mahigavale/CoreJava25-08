@@ -23,4 +23,5 @@
     <fullyQualifiedTypeName name="first.BankBalance"/>
     <fullyQualifiedTypeName name="second.D3"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="abstraction.Javastudent"/>
 </qualifiedTypeNameHistroy>
