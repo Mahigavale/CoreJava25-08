@@ -2,3 +2,23 @@
 /.metadata/.plugins/org.eclipse.swt/EBWebView/Default/Network/Cookies
 /.metadata/.plugins/
 
+# Ignore Eclipse metadata
+.metadata/
+*/.metadata/
+
+# Ignore Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Ignore Gradle build files
+.gradle/
+build/
+
+# Ignore IDE files
+*.iml
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
