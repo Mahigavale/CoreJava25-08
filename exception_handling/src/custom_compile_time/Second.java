@@ -8,6 +8,10 @@ public class Second {
 		
 		try
 		{
+			
+			/**
+			 * Only single exception is thrown from the try block.
+			 */
 			if(i>10 && i<20)
 			{
 				throw new Ten_Exception();
@@ -45,8 +49,11 @@ public class Second {
 
 }
 
+// Compile => Handle them => Try and catch block.
 class Ten_Exception extends Exception
 {
+	
+	
 	public Ten_Exception()
 	{
 		super("10 exception re !");
