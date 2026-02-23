@@ -58,7 +58,7 @@ public class Third {
 			}
 		};
 		
-	ExecutorService ex=Executors.newFixedThreadPool(1);
+	ExecutorService ex=Executors.newSingleThreadExecutor();
 	
 	
 	
@@ -66,10 +66,10 @@ public class Third {
 	ex.execute(run);
 
 	ex.execute(run2);
-	System.out.println("run3:"+run3);
-	System.out.println("RUn2:"+run2);
-	 List<Runnable> list=ex.shutdownNow();
-	 list.forEach(System.out::println);
+//	System.out.println("run3:"+run3);
+//	System.out.println("RUn2:"+run2);
+//	 List<Runnable> list=ex.shutdownNow();
+//	 list.forEach(System.out::println);
 	ex.execute(run3);
 	
 
