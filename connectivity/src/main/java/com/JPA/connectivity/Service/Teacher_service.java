@@ -1,12 +1,14 @@
 package com.JPA.connectivity.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.JPA.connectivity.Entity.Teacher;
 import com.JPA.connectivity.Repository.Teacher_Repo;
+import com.JPA.connectivity.dtos.TeacherDto;
 
 @Service
 public class Teacher_service {
@@ -24,14 +26,23 @@ public class Teacher_service {
 	
 	}
 	
-	public List<Teacher>  getAll()
+	public List<TeacherDto>  getAll()
 	{
-	 return 	 repo.findAll();
+	 List<Teacher> list=repo.findAll();
+	 
+	 return  list.stream().map((teacher)->(TeacherDto.convert(teacher)))
+	 .collect(Collectors.toList());
 	}
 	
 	
 	public List<Teacher> getbyname(String name)
 	{
 		return repo.getByName(name);
+	}
+	
+	
+	public int updateemailbyid(int id, String email)
+	{
+		return repo.updateemail(id,email);
 	}
 }
